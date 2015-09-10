@@ -1,0 +1,46 @@
+package mx.unam.ciencias.edd;
+
+import java.util.Random;
+
+/**
+ * Proyecto 1: SVG.
+ */
+public class Proyecto1 {
+
+public static void mje(){
+	System.out.println("Para ver ejemplos debe escribir \"java -jar proyecto1.jar [*] \n"+
+		   "[*] es el caso = \"lista\", \"ordenado\", \"rojinegro\" (Sin comillas)");
+}
+
+    public static void main(String[] args) {
+	String[] cadena = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",	
+	        	"n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"};
+	double[] arbol = {5, 3, 8, 4, 2, 7, 6, 9, 7.5, 8.5, 10, 1, 2.5, 3.5, 4.5,3,0,2,8,7,5,7,1,2,3,4,5,6,4.5,3,0,2};
+int[] arbol1 = {3, 2, 0, 8, 7, 5, 7, 10, 9, 10, 9};	
+	if(args.length == 1){	
+	if(args[0].equalsIgnoreCase("lista")){	
+	Lista<String> l = new Lista<String>();
+        for (int i = 0; i < cadena.length; i++){
+		l.agregaFinal(cadena[i]);
+	}
+	System.out.println(l.generaScalableVectorGraphics());	
+	}else if(args[0].equalsIgnoreCase("ordenado")){
+	ArbolBinarioOrdenado<Integer> a = new ArbolBinarioOrdenado<Integer>(); 
+        for (int i = 0; i < arbol1.length; i++){
+		a.agrega(arbol1[i%arbol.length]);
+	}
+	System.out.println(a.generaScalableVectorGraphics());	
+	}else if(args[0].equalsIgnoreCase("rojinegro")){
+	ArbolRojinegro<Double> rn = new ArbolRojinegro<Double>();
+        for (int i = 0; i < arbol.length; i++){
+		rn.agrega(arbol[i%arbol.length]);
+	}
+	System.out.println(rn.generaScalableVectorGraphics());	
+    	}else{
+ 	mje();	
+	}
+}else{	
+mje();
+}
+    }
+}

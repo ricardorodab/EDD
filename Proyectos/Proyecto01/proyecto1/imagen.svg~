@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="880" height="720">
+<g>
+<circle cx="440" cy="23.0" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="440" y="25" text-anchor="middle">3</text><line x1="440" y1="40" x2="660" y2="150" stroke="black" stroke-width="3" />
+<circle cx="660" cy="150" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="660" y="155" text-anchor="middle">8</text><line x1="660" y1="170" x2="770" y2="300" stroke="black" stroke-width="3" />
+<circle cx="770" cy="300" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="770" y="305" text-anchor="middle">10</text><line x1="770" y1="320" x2="715" y2="450" stroke="black" stroke-width="3" />
+<circle cx="715" cy="450" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="715" y="455" text-anchor="middle">9</text><line x1="715" y1="470" x2="742" y2="600" stroke="black" stroke-width="3" />
+<circle cx="742" cy="600" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="742" y="605" text-anchor="middle">10</text><line x1="715" y1="470" x2="688" y2="600" stroke="black" stroke-width="3" />
+<circle cx="688" cy="600" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="688" y="605" text-anchor="middle">9</text><line x1="660" y1="170" x2="550" y2="300" stroke="black" stroke-width="3" />
+<circle cx="550" cy="300" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="550" y="305" text-anchor="middle">7</text><line x1="550" y1="320" x2="495" y2="450" stroke="black" stroke-width="3" />
+<circle cx="495" cy="450" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="495" y="455" text-anchor="middle">5</text><line x1="495" y1="470" x2="522" y2="600" stroke="black" stroke-width="3" />
+<circle cx="522" cy="600" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="522" y="605" text-anchor="middle">7</text><line x1="440" y1="40" x2="220" y2="150" stroke="black" stroke-width="3" />
+<circle cx="220" cy="150" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="220" y="155" text-anchor="middle">2</text><line x1="220" y1="170" x2="110" y2="300" stroke="black" stroke-width="3" />
+<circle cx="110" cy="300" r="20.0" stroke="black" stroke-width="3" fill ="white" />
+<text fill="black" font-family="sens-serif" font-size="15" x="110" y="305" text-anchor="middle">0</text></g> 
+ </svg>

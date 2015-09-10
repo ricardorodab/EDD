@@ -1,0 +1,84 @@
+/**
+ * @mainpage Estructuras de datos
+ *
+ * @section intro Introducción
+ *
+ * Este paquete contiene el código en C para la enseñanza de
+ * estructuras de datos en un curso semestral a nivel universitario
+ * de Ingeniería o Ciencias de la Computación.
+ *
+ * Las estructuras de datos y algoritmos implementadas en este
+ * paquete incluyen:
+ *
+ * 1. Listas doblemente ligadas
+ *    + MergeSort
+ * 2. Pilas y colas.
+ * 3. Algoritmos para ordenamiento y búsqueda en arreglos
+ *    + SelectionSort
+ *    + QuickSort
+ *    + Búsqueda binaria
+ * 4. Árboles binarios, ordenados y rojinegros
+ * 5. Gráficas
+ *    + Montículos mínimos (*min heaps*)
+ *    + Algoritmo de Dijkstra
+ * 6. Diccionarios (*hash tables*)
+ *    + Varios algoritmos de huellas digitales (*hashes*)
+ *
+ * Las implementaciones de los algoritmos, aunque no adecuadas para
+ * su uso en proyectos masivos (todas utilizan manejo básico de
+ * memoria con `malloc()`), sirven perfectamente para pequeños y
+ * medianos proyectos, y todos los algoritmos son óptimos en tiempo
+ * y espacio en su análisis clásico.
+ *
+ * Además, el paquete incluye una serie completa de pruebas
+ * unitarias para cada una de las estructuras de datos, que prueban
+ * extensivamente cada una de las funciones implementadas.
+ *
+ * @section listas Listas doblemente ligadas
+ *
+ * Implementación de listas doblemente ligadas siguiendo un diseño
+ * orientado a objetos. La documentación completa de esta estructura
+ * de datos se puede encontrar en el archivo @ref lista.h.
+ *
+ * @section pilasycolas Pilas y colas
+ *
+ * Implementación de pilas y colas. La documentación completa de
+ * estas estructuras de datos se puede encontrar en los archivos
+ * @ref pila.h y @ref cola.h.
+ *
+ * @section ordenamientos Ordenamientos y búsquedas
+ *
+ * Además de que la estructura @ref Lista da una función
+ * lista_mergesort() que implementa el algoritmo MergeSort, en el
+ * archivo @ref arreglos.h se dan implementaciones para
+ * SelectionSort y QuickSort, así como para búsquedas binarias en
+ * arreglos ordenados.
+ *
+ * @section arboles Árboles binarios
+ *
+ * Implementación de árboles binarios ordenados y rojinegros
+ * siguiendo un diseño orientado a objetos. La documentación
+ * completa de esta estructura de datos se puede encontrar en el
+ * archivo @ref arbolbinario.h.
+ *
+ * @section graficas Gráficas
+ *
+ * Implementación de gráficas no dirigidas. Incluye una
+ * implementación del algoritmo de Dijkstra, que a su vez utiliza
+ * una implementación de montículos mínimos (<em>min heaps</em>). La
+ * documentación completa de esta estructura de datos se puede
+ * encontrar en el archivo @ref grafica.h; la de los montículos
+ * mínimos se encuentra en @ref monticulominimo.h.
+ *
+ * @section diccionarios Diccionarios
+ *
+ * Implementación de diccionarios. El usuario tiene que proveer
+ * funciones para obtener las huellas digitales de las llaves, pero
+ * se ofrecen tres implementaciones distintas para cadenas. La
+ * documentación completa de esta estructura de datos se puede
+ * encontrar en el archivo @ref diccionario.h.
+ */
+
+// Local Variables:
+// mode: c
+// End:

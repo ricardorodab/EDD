@@ -1,0 +1,35 @@
+Estructuras de datos
+====================
+
+Introducción
+------------
+
+Este paquete contiene el código en C para la enseñanza de
+estructuras de datos en un curso semestral a nivel universitario de
+Ingeniería o Ciencias de la Computación.
+
+Las estructuras de datos y algoritmos implementadas en este paquete
+incluyen:
+
+1. Listas doblemente ligadas (usables como pilas y colas)
+   + MergeSort
+2. Algoritmos para ordenamiento y búsqueda en arreglos
+   + SelectionSort
+   + MergeSort
+   + Búsqueda binaria
+3. Árboles binarios, ordenados y rojinegros
+4. Gráficas
+   + Montículos mínimos (*min heaps*)
+   + Algoritmo de Dijkstra
+5. Diccionarios (*hash tables*)
+   + Varios algoritmos de huellas digitales (*hashes*)
+
+Las implementaciones de los algoritmos, aunque no adecuadas para su
+uso en proyectos masivos (todas utilizan manejo básico de memoria
+con malloc()), sirven perfectamente para pequeños y medianos
+proyectos, y todos los algoritmos son óptimos en tiempo y espacio en
+su análisis clásico.
+
+Además, el paquete incluye una serie completa de pruebas unitarias
+para cada una de las estructuras de datos, que prueban
+extensivamente cada una de las funciones implementadas.
